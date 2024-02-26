@@ -1,0 +1,19 @@
+.App {
+	display:flex;
+	background-color:lightyellow;
+	text-align: center;
+	justify-content: center;
+	flex-direction:column;
+}
+
+@media (max-width:750px){
+	.App{
+		background-color:teal;
+	}
+}
+
+@media (max-width:390px){
+	.App{
+		background-color:lightsalmon;
+	}
+}
